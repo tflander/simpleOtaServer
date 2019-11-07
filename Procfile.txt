@@ -1,1 +1,3 @@
 web: gunicorn app:hello
+heroku ps:scale web=1
+
